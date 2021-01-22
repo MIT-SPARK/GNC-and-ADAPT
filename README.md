@@ -1,24 +1,27 @@
-<!-- <div align="center">
-  <a href="http://mit.edu/sparklab/">
-    <img align="left" src="http://web.mit.edu/sparklab/assets/images/spark-shard.png" width="80" alt="sparklab">
-  </a>
-  <a href="https://mit.edu">
-    <img align="right" src="http://mit.edu/sparklab/assets/images/mit.png" width="100" alt="mit">
-  </a>
-</div> -->
-
 <a href="http://mit.edu/sparklab/">
   <img align="left" src="http://web.mit.edu/sparklab/assets/images/spark-shard.png" height="80px" alt="sparklab">
 </a>
 
-<h1 style="height: 70px;"> Outlier robust estimation </h1>
+<h1 style="padding-left: 1em; height: 70px;"> Outlier robust estimation </h1>
 
 
 This repository contains the MATLAB implementation of **GNC (Graduated Non-Convexity)** and **ADAPT (Adaptive Trimming)** described in the following papers:
 
+- Antonante, P., Tzoumas, V., Yang, H., & Carlone, L. (2020). "Outlier-Robust Estimation: Hardness, General-Purpose Algorithms, Experiments, and Guarantees."
+
+```bibtex
+@techreport{Antonante20tr-outlierRobustEstimation,
+  title = {Outlier-Robust Estimation:
+  	Hardness, General-Purpose Algorithms, Experiments, and Guarantees},
+  author = {Antonante, P. and Tzoumas, V. and Yang, H. and Carlone, L.},
+  hidenote = {in preparation},
+  year = {2020}
+}
+```
+
 - Yang, H., Antonante, P., Tzoumas, V., & Carlone, L. (2020). "Graduated Non-Convexity for Robust Spatial Perception: From Non-Minimal Solvers to Global Outlier Rejection". IEEE Robotics and Automation Letters (RA-L), 5(2), 1127–1134.
 
-```
+```bibtex
 @article{Yang20ral-GNC,
   author = {Yang, H. and Antonante, P. and Tzoumas, V. and Carlone, L.},
   fullauthor = {Heng Yang, Pasquale Antonante, Vasileios Tzoumas, Luca Carlone},
@@ -32,21 +35,9 @@ This repository contains the MATLAB implementation of **GNC (Graduated Non-Conve
 }
 ```
 
-- Antonante, P., Tzoumas, V., Yang, H., & Carlone, L. (2020). "Outlier-Robust Estimation: Hardness, General-Purpose Algorithms, Experiments, and Guarantees."
-
-```
-@techreport{Antonante20tr-outlierRobustEstimation,
-  title = {Outlier-Robust Estimation:
-  	Hardness, General-Purpose Algorithms, Experiments, and Guarantees},
-  author = {Antonante, P. and Tzoumas, V. and Yang, H. and Carlone, L.},
-  hidenote = {in preparation},
-  year = {2020}
-}
-```
-
 - Tzoumas, V., Antonante, P., & Carlone, L. (2019). Outlier-Robust Spatial Perception: Hardness, General-Purpose Algorithms, and Guarantees. IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS).
 
-```
+```bibtex
 @inproceedings{Tzoumas19iros-outliers,
   author = {Tzoumas, V. and Antonante, P. and Carlone, L.},
   title = {Outlier-Robust Spatial Perception: Hardness, General-Purpose Algorithms, and Guarantees},
@@ -56,6 +47,7 @@ This repository contains the MATLAB implementation of **GNC (Graduated Non-Conve
   year = {2019}
 }
 ```
+
 ## Quick-start
 
 Open matlab and run
